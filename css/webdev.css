@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
+
+
+html, body {
+    margin: 0px; /*Remove default margin*/ 
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+#welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*Viewport height*/
+    width: 100%;
+    background-image: url("https://data.whicdn.com/images/318658166/original.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(255, 245, 104);
+    text-shadow: 6px 1px 4px #3A1910;
+    font-size: 65px;
+
+}
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background-color:#e0b7b5;
+    z-index: 9;
+    box-shadow:  0px 2px 10px 10px #e0b7b5;
+    -webkit-box-shadow: 0px 2px 10px 10px #e0b7b5; /*0px 4px 10px -2px*/
+    -moz-box-shadow:  0px 2px 10px 10px #e0b7b5;
+
+}
+
+
+.navlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    list-style: none;
+    height: 70px;
+    padding: 0;
+    
+}
+
+
+li {
+    margin: 8px;
+    color: white;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+h2 {
+    font-family: 'amaranth';
+    font-size: 35px;
+}
+
+#webdinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*Viewport height*/
+    width: 100%;
+    min-height: 700px;
+    background-color: rgb(207, 196, 210);
+}
+
+.project-tile {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    transition: .5s;
+    height: 320px;
+
+}
+
+.project-tile, img {
+    width: 200px;
+}
+
+.card-link {
+    color: black;
+    text-decoration: none;
+
+}
+
+.project-tile:hover {
+    transform: scale(1.1);
+}
+
+#about {
+    min-height: 1000px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/originals/aa/fe/37/aafe37cb7b1660b9fc42be4127cd6e93.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#about-box {
+    background-color:rgb(194, 198, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 74px 80px rgba(194,198,210,1);
+    -moz-box-shadow: 0px 0px 74px 80px rgba(194,198,210,1);
+    box-shadow: 0px 0px 74px 80px rgba(194,198,210,1);
+    
+    
+    
+}
+
+#a-head {
+    margin-bottom: 2px;
+    font-size: 27px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+
+#a-p {
+    font-size: 18px;
+    line-height: 1.55em;
+    text-align: center;
+}
+
+#myIMG {
+    border-radius: 50%;
+    height: 300px ;
+    width: 300px ;
+    object-fit: cover;
+   
+}
+
+#profile-link {
+
+    
+}
+
+
+i {
+    color: black;
+    margin-top: 20px;
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+i:hover {
+    color: rgb(255, 245, 104);
+}
+
+#link_zoom {
+    transition: transform .2s;
+}
+
+
+
+#link-zoom:hover {
+    color:rgb(255, 245, 104);
+    transform: scale(1);
+}
+
+
+.f1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #e0b7b5;
+    box-shadow: 0px -4px 10px #e0b7b5;
+    -webkit-box-shadow: 0px -4px 10px #e0b7b5;
+    -moz-box-shadow: 0px -4px 10px #e0b7b5;
+
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    #welcome-section {
+        font-size: 50px;
+    }
+
+    #projects {
+        flex-direction: column;
+
+    }
+
+    .project-tile {
+        margin: 20px;
+    }
+
+    #a-head {
+        font-size: 20px;
+    }
+
+    #a-p {
+        font-size: 14px;
+    }
+    
+    
+
+    i {
+        font-size: 30px;
+        padding: 10px;
+
+    }
+
+    #myIMG {
+        border-radius: 50%;
+        height: 200px ;
+        width: 200px ;
+        object-fit: cover;
+       
+    }    
+
+}
