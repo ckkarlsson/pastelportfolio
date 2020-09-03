@@ -266,6 +266,9 @@ footer .f1 {
   .project-tile {
     margin: 20px;
   }
+  .project-tile p {
+    font-size: 14px;
+  }
   #a-head {
     font-size: 30px;
   }
