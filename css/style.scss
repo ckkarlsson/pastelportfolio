@@ -217,7 +217,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 
     .navlist {
         height: 110px;
@@ -242,6 +242,7 @@ footer {
 
     #a-head {
         font-size: 30px;
+        color: yellow;
     }
 
     #a-p {

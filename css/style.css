@@ -241,7 +241,7 @@ footer .f1 {
   -moz-box-shadow: 0px -4px 10px #e0b7b5;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .navlist {
     height: 110px;
   }
@@ -262,6 +262,7 @@ footer .f1 {
   }
   #a-head {
     font-size: 30px;
+    color: yellow;
   }
   #a-p {
     font-size: 20px;
