@@ -249,7 +249,7 @@ footer .f1 {
     font-size: 24px;
   }
   #welcome-section {
-    font-size: 60px;
+    font-size: 30px;
   }
   #projects {
     -webkit-box-orient: vertical;
@@ -272,8 +272,8 @@ footer .f1 {
   }
   #myIMG {
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     -o-object-fit: cover;
        object-fit: cover;
   }
