@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
+
+
+body {
+    background-color: rgb(207, 196, 210);
+}
+
+.info-wrap {
+  height: 100vh; /*Viewport height*/
+    width: 100%;
+    min-height: 700px;
+
+
+.info-head {
+        display: flex;
+        justify-content: left;
+        padding-top: 80px;
+    
+    }
+
+
+
+h2 {
+    font-family: 'amaranth';
+    font-size: 35px;
+}
+
+#webdinfo {
+    display: flex;
+    padding-top: 20px;
+  
+
+
+        div {
+            justify-content: space-between;
+            width: 50%;
+        }
+
+        div:last-child {
+        }
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+}
