@@ -261,6 +261,7 @@ footer .f1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    min-height: 1400px;
   }
   .project-tile {
     margin: 20px;
