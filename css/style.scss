@@ -81,6 +81,40 @@ a {
 li:hover {
     text-decoration: underline;
     color: white;
+    text-decoration-color: rgb(255, 245, 104);
+}
+
+#work {
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 30px;
+    
+
+
+    h2 {
+        text-align: center;
+        padding-top: 100px;
+        background-color: rgb(207, 196, 210);
+        margin: 0;
+        font-size: 40px;
+        width: 100%;
+
+
+
+    }
+
+    .sparkle {
+        height: 188px;
+        position: relative;
+        right:-52%;
+        top: -150px;
+    }
+
+    
 }
 
 #projects {
@@ -91,6 +125,8 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-top: 70px;
+
     
 }
 
