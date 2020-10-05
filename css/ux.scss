@@ -1,5 +1,5 @@
 #info {
-    height: 300vh; /*Viewport height*/
+    height: 350vh; /*Viewport height*/
     width: 100%;
     background-color: #C2C6D2;
     padding-top: 30px;
@@ -65,6 +65,37 @@
         width: 25%;
       }
 
+    }
+
+    .screenshots {
+      display: flex;
+      width: 100%;
+      align-items: center;
+
+      div:first-child {
+        width: 25%;
+
+      }
+
+      .imgcontent {
+        width: 50%;
+
+        img {
+          width: 100%;
+        }
+
+        p {
+          margin: 2px;
+          font-style: italic;
+        }
+
+      }
+
+      div:last-child {
+        width: 25%;
+      }
+
+     
     }
 
     

@@ -1,5 +1,5 @@
 #info {
-  height: 300vh;
+  height: 350vh;
   /*Viewport height*/
   width: 100%;
   background-color: #C2C6D2;
@@ -68,6 +68,37 @@
 }
 
 #info .background div:last-child {
+  width: 25%;
+}
+
+#info .screenshots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#info .screenshots div:first-child {
+  width: 25%;
+}
+
+#info .screenshots .imgcontent {
+  width: 50%;
+}
+
+#info .screenshots .imgcontent img {
+  width: 100%;
+}
+
+#info .screenshots .imgcontent p {
+  margin: 2px;
+  font-style: italic;
+}
+
+#info .screenshots div:last-child {
   width: 25%;
 }
 
