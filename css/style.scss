@@ -197,7 +197,12 @@ li:hover {
     text-align: center;
 }
 
+#folderimg {
+    width: 40px;
+}
+
 #myIMG {
+    padding-top: 20px;
     border-radius: 50%;
     height: 300px ;
     width: 300px ;
@@ -314,6 +319,10 @@ footer {
         font-size: 40px;
         padding: 10px;
 
+    }
+
+    #folderimg {
+        width: 40px;
     }
 
     #myIMG {
