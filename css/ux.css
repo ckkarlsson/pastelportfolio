@@ -1,28 +1,97 @@
 #info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 300vh;
+  /*Viewport height*/
+  width: 100%;
+  background-color: #C2C6D2;
+  padding-top: 30px;
+}
+
+#info .header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
-  /*Viewport height*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 70px;
+}
+
+#info h3 {
+  text-align: center;
+}
+
+#info .short-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background-color: #C2C6D2;
+}
+
+#info .short-info div {
+  width: 30%;
+}
+
+#info .short-info div ul {
   padding-top: 30px;
 }
 
-#info img {
-  height: 300px;
-  width: 600px;
-  margin-top: 10px;
+#info .short-info div ul li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+#info .short-info div ul #li1, #info .short-info div ul #li2, #info .short-info div ul #li3, #info .short-info div ul #li4 {
+  font-weight: bold;
+}
+
+#info .background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+#info .background div:first-child {
+  width: 25%;
+}
+
+#info .background .content {
+  width: 50%;
+}
+
+#info .background div:last-child {
+  width: 25%;
+}
+
+#info .background-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+#info .background-3 div:first-child {
+  width: 25%;
+}
+
+#info .background-3 .content {
+  width: 50%;
+}
+
+#info .background-3 div:last-child {
+  width: 25%;
 }
 
 #info .button {
@@ -47,11 +116,6 @@
 @media only screen and (max-width: 1024px) {
   #info {
     font-size: 20px;
-  }
-  #info img {
-    height: 400px;
-    width: 800px;
-    margin-top: 20px;
   }
   #info .button {
     text-decoration: none;
